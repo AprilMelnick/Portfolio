@@ -22,7 +22,7 @@ body {
 .project-flex {
     	display: flex;
     	flex-wrap: wrap;
-    	justify-content: right;
+    	justify-content: right, flex-start;
     	margin-bottom: 2rem;
     	margin-top: 0;
 }
