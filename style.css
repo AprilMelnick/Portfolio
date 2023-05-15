@@ -9,7 +9,6 @@ body {
 .navigation {
     display: flex;
 	flex-direction: column;
-	background-color: #1f1f1f;
 }
 .hero-section {
 	text-align: center;
@@ -160,7 +159,7 @@ ul {
  	 margin: 0;
   	 padding: 0;
   	 overflow: hidden;
- 	 background-color: #333333;
+ 	 background-color: #1F1F1F;
 	 border-radius: .5rem
 }
 li {
