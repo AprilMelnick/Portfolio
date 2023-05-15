@@ -22,10 +22,9 @@ body {
 .project-flex {
     display: flex;
     flex-wrap: wrap;
-	flex-direction: column;
-	justify-content: right;
-	margin-bottom: 2rem;
-	margin-top: 0;
+    justify-content: right;
+    margin-bottom: 2rem;
+    margin-top: 0;
 }
 .about-section {
 	margin-bottom: 5rem;
