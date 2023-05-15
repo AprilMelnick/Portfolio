@@ -1,6 +1,6 @@
 body {
    font-family: "Audiowide", "Lato";
-   background-color: #333333;
+   background-color: #434343;
 }
 .container {
     max-width: 80%;
@@ -159,7 +159,7 @@ ul {
  	 margin: 0;
   	 padding: 0;
   	 overflow: hidden;
- 	 background-color: #1F1F1F;
+ 	 background-color: #333333;
 	 border-radius: .5rem
 }
 li {
