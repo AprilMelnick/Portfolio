@@ -9,6 +9,7 @@ body {
 .navigation {
     display: flex;
 	flex-direction: column;
+	background-color: #1f1f1f;
 }
 .hero-section {
 	text-align: center;
