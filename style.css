@@ -32,7 +32,7 @@ body {
 }
 .project {
 	box-sizing: border-box;
-	width: 80%;
+	width: 60%;
     	border-style: solid;
 	border-width: 1px;
 	border-color: rgba(179, 106, 94, 1);
