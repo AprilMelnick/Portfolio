@@ -21,6 +21,8 @@ body {
     margin-top: 4rem;
 }
 .project-flex {
+	display: flex;
+        flex-wrap: wrap;
 	justify-content: right;
 	margin-bottom: 2rem;
 	margin-top: 0;
