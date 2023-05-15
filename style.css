@@ -177,4 +177,5 @@ html {
   	scroll-behavior: smooth;
 }
 a.one:link {color: rgba(244, 244, 244, 1);}
+a.one:visited {color: rgba(244, 244, 244, 1);}
 a.one:hover {color: rgba(166, 90, 78, 1);}
