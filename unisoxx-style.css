@@ -1,5 +1,5 @@
 body {
-    font-family: "Space Mono", "Maven Pro", "Lato";
+    font-family: "Space Mono", "Maven Pro", "Lato" "Audiowide";
     font-style: sans-serif;
     background-color: #434343;
 }
@@ -9,6 +9,11 @@ html {
 .container {
     max-width: 80%;
     margin: auto;
+}
+.container-small {
+	max-width: 30%;
+	margin: left;
+	padding-top: 2rem;
 }
 .navigation {
     display: flex;
@@ -37,6 +42,12 @@ html {
     margin: 0;
 	padding-right: 1rem;
 }
+.container-medium {
+	max-width: 27rem;
+    text-align: left;
+    margin: 0;
+	padding-right: 1rem;
+}
 img {
     width: 100%;
 }
@@ -58,6 +69,16 @@ h2 {
     padding: 0;
     margin: 0;
 }
+h3 {
+    color: rgba(244, 244, 244, 1);
+	font-size: 2.3rem;
+	font-family: Audiowide;
+	font-weight: normal;
+	line-height: 1.1;
+	letter-spacing: 0.2rem;
+	padding: 0;
+	margin: 0;
+}
 p {
     font-family: Maven Pro;
     font-size: 1rem;
@@ -70,7 +91,7 @@ p {
 .project-img {
     width: 100%;
 }
-ul {
+ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -78,11 +99,8 @@ ul {
     background-color: #333333;
     border-radius: .5rem
 }
-li {
-    float: left;
-}
-li a {
-   display: block;
+li.nav a {
+    display: block;
     color: white;
     font-family: Lato;
     font-size: 1 rem;
@@ -91,8 +109,21 @@ li a {
     padding: 1rem 1.5rem;
     text-decoration: none;
 }
-li a:hover {
-   background-color: #141414;
+li.nav a:hover {
+    background-color: #141414;
+}
+ul.b {
+    list-style-type: disc;
+    font-family: Maven Pro;
+    font-size: 1rem;
+}
+li b {
+    font-family: Maven Pro;
+    font-size: 1 rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 .layout {
     width: 100%;
@@ -101,4 +132,49 @@ li a:hover {
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: nowrap;
+    padding-top: 3rem;
+}
+.contact-links {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+a.one:link {
+	color: rgba(244, 244, 244, 1);
+	font-family: Lato;
+	font-size: 1 rem;
+	letter-spacing: 0.2rem;
+	text-decoration: none;
+}
+a.one:visited {color: rgba(244, 244, 244, 1)}
+a.one:hover {color: rgba(166, 90, 78, 1);}
+html {
+    scroll-behavior: smooth;
+}
+.flexbox {
+    display: flex;
+    flex-direction: column;
+}
+.container-xsmall {
+    max-width: 19rem;
+    text-align: left;
+    margin: 0;
+}
+.grey-box {
+    background-color: #e6e6e6;
+    padding: 1.5rem;
+    max-width: 19rem;
+    align-content: flex-start;
+    margin-top: 6rem;
+}
+.table {
+    padding: 1.5rem 3.5rem;
+}
+th.a {
+    text-align: left;
+    max-width: 8rem;
+}
+th.b {
+    text-align: left;
+    max-width: 6rem;
 }
