@@ -29,6 +29,8 @@
                 <h2>this is a sample text</h2>
                 <p>this is a longer sample sentence that will turn in to a paragraph</p>
                 <img src="assets/hero image.webp" class="img" alt="laptop and mobile phone showing online sock store" style="width: 100%">
+            </div>
+            <div class="section-introduction">
                 <div class="container-heading-introduction">
                     <img src="assets/Introduction.webp" class="img" alt="Introduction" style="width: 65%">
                 </div>
@@ -49,6 +51,8 @@
                         </ul.b>
                     </div>
                 </div>
+            </div>
+            <div class="section-design_solution">
                 <div class="layout">
                     <div class="flexbox">
                         <div class="container-medium">
@@ -57,7 +61,7 @@
                             <br>
                             <br>
                             So I approached the project from the perspective of a gender-fluid tech-savvy, Gen Z shopper. How would they shop for socks?</p>
-                            <div class="container-xsmall grey-box" style="float:right">
+                            <div class="container-grey_box grey-box" style="float:right">
                                 <p>New gender norms:</p>
                                 <ul class="b">
                                     <li>According to new research, 38% of Gen Z respondents “strongly agreed” that gender no longer defines a person as much as it used to.</li>
@@ -66,7 +70,28 @@
                             </div>
                         </div>
                     </div>
-                        <img src="assets/Gen z shoppers.webp" class="img" alt="list of project details with all tools used" style="width: 50%">
+                        <img src="assets/Gen z shoppers.webp" alt="list of project details with all tools used" style="width: 40%">
+                    </div>
+                </div>
+                <div class="container-heading-introduction">
+                    <img src="assets/Design solutions.webp" class="img" alt="Introduction" style="width: 95%">
+                </div>
+                <div class="layout flexbox" style="flex-direction: row;">
+                    <div class="container-medium">
+                        <H2>Awareness in Branding</H2>
+                        <p>Looking to awareness brands like 1980-90s Benetton and the unisex Calvin Klein One perfume campaign for inspiration, I created brand guidelines. Focusing heavily on inclusivity to build credibility among the Gen Z users, I also wanted to tap in to 80s - 90s nostalgia to appeal to older users.</p>
+                    </div>
+                    <img src="assets/Calvin Klein and Benetton Ads.webp" alt="Two images featuring ad campaigns from the 80s and 90s" style="width: 40%">
+                </div>
+                <div class="w3-content">
+                    <h2>Branding Guidlines</h2>
+                    <img class="mySlides" src="assets/Brand P1.webp" style="width:90%">
+                    <img class="mySlides" src="assets/Brand P2.webp" style="width:90%">
+                    <img class="mySlides" src="assets/Brand P3.webp" style="width:90%">
+                    <img class="mySlides" src="assets/Brand P4.webp" style="width:90%">
+                    <div>
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
                     </div>
                 </div>
             </div>
@@ -117,6 +142,24 @@
         <td></td>
         <td>Visual Design</td>
     </tr>
-    
-        
 </table>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
